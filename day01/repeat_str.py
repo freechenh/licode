@@ -6,6 +6,7 @@
 
 
 class Solution:
+    # 枚举
     @staticmethod
     def repeated_sub_string_pattern(s):
         n = len(s)
