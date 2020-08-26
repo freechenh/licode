@@ -37,4 +37,18 @@ def sum_max(nums):
     return sum_max(nums[1:])
 
 
-print(sum_max([5, 4, 3, 2, 1]))
+def nums_sort(nums):
+    pass
+
+
+def quick_sort(nums):
+    if len(nums) < 2:
+        return nums
+    else:
+        pivot = nums[0]
+        less = [i for i in nums[1:] if i <= pivot]
+        greater = [i for i in nums[1:] if i > pivot]
+        return quick_sort(less) + [pivot] + quick_sort(greater)
+
+
+print(quick_sort([5, 4, 3, 2, 1]))
