@@ -1,0 +1,119 @@
+{
+  "uid" : "b2d3351472275022",
+  "name" : "test_needsfiles",
+  "fullName" : "test_tmpdir#test_needsfiles",
+  "historyId" : "a185e92f134bc213a125eaf95acd615d",
+  "time" : {
+    "start" : 1592389159457,
+    "stop" : 1592389159458,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert 0",
+  "statusTrace" : "tmpdir = local('C:\\\\Users\\\\dell\\\\AppData\\\\Local\\\\Temp\\\\pytest-of-dell\\\\pytest-12\\\\test_needsfiles0')\n\n    def test_needsfiles(tmpdir):\n        print(tmpdir)\n>       assert 0\nE       assert 0\n\ntest_tmpdir.py:13: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "tmp_path",
+    "time" : {
+      "start" : 1592389159450,
+      "stop" : 1592389159457,
+      "duration" : 7
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "tmpdir",
+    "time" : {
+      "start" : 1592389159457,
+      "stop" : 1592389159457,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  }, {
+    "name" : "tmp_path_factory",
+    "time" : {
+      "start" : 1592389159450,
+      "stop" : 1592389159450,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "AssertionError: assert 0",
+    "statusTrace" : "tmpdir = local('C:\\\\Users\\\\dell\\\\AppData\\\\Local\\\\Temp\\\\pytest-of-dell\\\\pytest-12\\\\test_needsfiles0')\n\n    def test_needsfiles(tmpdir):\n        print(tmpdir)\n>       assert 0\nE       assert 0\n\ntest_tmpdir.py:13: AssertionError",
+    "steps" : [ ],
+    "attachments" : [ {
+      "uid" : "adb3348e7f769093",
+      "name" : "stdout",
+      "source" : "adb3348e7f769093.txt",
+      "type" : "text/plain",
+      "size" : 75
+    } ],
+    "parameters" : [ ],
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "stepsCount" : 0,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "test_tmpdir"
+  }, {
+    "name" : "host",
+    "value" : "R10459"
+  }, {
+    "name" : "thread",
+    "value" : "23444-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "test_tmpdir"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "b2d3351472275022.json",
+  "parameterValues" : [ ]
+}

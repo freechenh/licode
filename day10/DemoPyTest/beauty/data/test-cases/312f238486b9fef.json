@@ -1,0 +1,56 @@
+{
+  "uid" : "312f238486b9fef",
+  "name" : "test_a",
+  "fullName" : "b_folder.da_folder.test_da.TestDa#test_a",
+  "historyId" : "11573dd9ee557c50f1969d7e4f019e94",
+  "time" : {
+    "start" : 1592389159482,
+    "stop" : 1592389159482,
+    "duration" : 0
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "b_folder.da_folder"
+  }, {
+    "name" : "suite",
+    "value" : "test_da"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestDa"
+  }, {
+    "name" : "host",
+    "value" : "R10459"
+  }, {
+    "name" : "thread",
+    "value" : "23444-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "b_folder.da_folder.test_da"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "312f238486b9fef.json",
+  "parameterValues" : [ ]
+}
