@@ -11,5 +11,7 @@ import pytest
 
 
 if __name__ == '__main__':
-    pytest.main(["--alluredir", "./report"])
-    # pytest.main(["-q"], ["test_class.py::TestClass::test_one"])
+    # pytest.main(["--alluredir", "./report"])
+    # pytest.main(["-x", "test_class.py"])
+    pytest.main(['-q', 'a_folder/', "--alluredir", "./report"])
+    pytest.main(['-q', 'b_folder/', "--alluredir", "./report"])

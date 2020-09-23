@@ -8,7 +8,7 @@
 # @Source: PyCharm
 import pytest
 
-from DemoPyTest.Data import Data
+# from DemoPyTest.Data import Data
 
 
 @pytest.mark.usefixtures('demo_fixture')
