@@ -10,11 +10,16 @@ import pytest
 
 seq = ["case1", "case2", "case3"]
 
+ddd = ['case']
 
-@pytest.fixture(scope='class', params=seq)
+dddd = [{"a": "b", "v": 1}]
+
+
+@pytest.fixture(scope='class', params=dddd)
 def demo_fixture(request):
     print('前置条件')
-    print(request.param)
+    print(request.param['a'])
+    return 'chenhui'
 
 
 @pytest.fixture(scope="module", params=seq)
