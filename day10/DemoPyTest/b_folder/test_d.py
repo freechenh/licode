@@ -8,6 +8,7 @@
 # @Source: PyCharm
 import pytest
 
+
 # from DemoPyTest.Data import Data
 
 
@@ -16,7 +17,9 @@ import pytest
 class TestD:
 
     @pytest.mark.success
-    def test_d_1(self):
+    def test_d_1(self, demo_fixture):
+        aaa = demo_fixture
+        assert aaa == 'chenhuid'
         assert 2 - 1 == 0
 
     def test_d_2(self):
@@ -25,4 +28,3 @@ class TestD:
     @pytest.mark.error
     def test_d_3(self):
         assert 3 + 1 == 3
-
