@@ -12,7 +12,7 @@ import pytest
 # from DemoPyTest.Data import Data
 
 
-@pytest.mark.usefixtures('demo_fixture')
+@pytest.mark.usefixtures('demo_a')
 # @pytest.mark.usefixtures("")
 class TestD:
 

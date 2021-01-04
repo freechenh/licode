@@ -29,6 +29,8 @@ num_add = "//a[@class='btn-add']"
 
 add_cart = "//a[@id='InitCartUrl']"
 
+qianggou = "//a[@id='btn-reservation']"
+
 
 class Jd:
     def __init__(self):
