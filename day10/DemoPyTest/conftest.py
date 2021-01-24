@@ -15,7 +15,7 @@ ddd = ['case']
 dddd = [{"a": "b", "v": 1}]
 
 
-@pytest.fixture(scope='class', params=dddd)
+@pytest.fixture(scope='class', params=seq)
 def demo_fixture(request):
     print('前置条件')
     print(request.param['a'])
@@ -27,7 +27,7 @@ def params(request):
     return request.param
 
 
-@pytest.fixture()
+@pytest.fixture(scope='class')
 def demo_a():
     print("前置条件")
     yield
