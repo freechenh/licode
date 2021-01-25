@@ -13,6 +13,10 @@ J_SiteNavFavor = "//li[@id='J_SiteNavFavor']"
 
 collections_dotey = "//a[contains(text(), '收藏的宝贝')]"
 
+shopping_cart_path = "//a[@id='mc-menu-hd']"
+
+check_path = "//div[@id='J_Item_2317589649968']//li[@class='td td-chk']//div[@class='cart-checkbox ']"
+
 
 class TaoBao(Driver):
 
