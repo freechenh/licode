@@ -7,10 +7,15 @@ axis = {'Y': '|', 'X': '-'}
 
 stock_data = '''
 
-3
+50
 RCRFCRFFCCRRC
 CFF
-FFFCCRRCCCRR'''
+FFFCCRRCCCRR
+FCRFRCCCCCRFR
+FRCFRFRRRFRRCCC
+FRCCFRCCFFRFR
+FRCCFRFCC
+'''
 
 
 def add_x_y(stock_cost_element, len_y):
@@ -65,10 +70,10 @@ def stock_trend_chart(stock_cost_element):
 
 def main(stock_cost_element):
     data_len, *data = stock_cost_element.strip('\n').split('\n')
-    if int(data_len) != len(data):
-        print('stock num is wrong')
+    # if int(data_len) != len(data):
+    #     print('stock num is wrong')
     for i in range(len(data)):
-        print("Case #%s:" % i)
+        print("Case #%s:" % (i + 1))
         stock_trend_chart(judge_max_fall(data[i]))
         print("\n")
 
